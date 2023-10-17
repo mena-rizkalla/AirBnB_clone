@@ -15,7 +15,11 @@ from models.user import User
 
 
 class TestUser_instantiation(unittest.TestCase):
+<<<<<<< HEAD
     """Unit tests for testing instantiation of the user Class."""
+=======
+    """Unittests for testing instantiation of the User class."""
+>>>>>>> 279794b75c59aebcee804dd3c5ef8de44f94cb5b
 
     def test_no_args_instantiates(self):
         self.assertEqual(User, type(User()))
@@ -91,7 +95,11 @@ class TestUser_instantiation(unittest.TestCase):
 
 
 class TestUser_save(unittest.TestCase):
+<<<<<<< HEAD
     """Unit tests for testing save method of the Class."""
+=======
+    """Unittests for testing save method of the  class."""
+>>>>>>> 279794b75c59aebcee804dd3c5ef8de44f94cb5b
 
     @classmethod
     def setUp(self):
@@ -142,7 +150,11 @@ class TestUser_save(unittest.TestCase):
 
 
 class TestUser_to_dict(unittest.TestCase):
+<<<<<<< HEAD
     """Unittests for testing to_dict method of the User Class."""
+=======
+    """Unittests for testing to_dict method of the User class."""
+>>>>>>> 279794b75c59aebcee804dd3c5ef8de44f94cb5b
 
     def test_to_dict_type(self):
         self.assertTrue(dict, type(User().to_dict()))
